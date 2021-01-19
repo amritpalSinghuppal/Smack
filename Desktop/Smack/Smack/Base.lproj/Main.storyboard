@@ -19,8 +19,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="UjZ-NX-kXE" kind="custom" identifier="swRear" customClass="SWRevealViewControllerSegueSetController" id="L5T-7Q-gr5"/>
-                        <segue destination="NrN-dI-sHy" kind="custom" identifier="swFront" customClass="SWRevealViewControllerSegueSetController" id="qZ6-mL-243"/>
+                        <segue destination="UjZ-NX-kXE" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="rs8-Zw-xSB"/>
+                        <segue destination="NrN-dI-sHy" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="2J7-3c-7x9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -45,7 +45,7 @@
         <!--ChatVC-->
         <scene sceneID="3fC-G0-tum">
             <objects>
-                <viewController id="NrN-dI-sHy" customClass="ChatVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SWRevealViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NrN-dI-sHy" customClass="ChatVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6OJ-np-wJm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

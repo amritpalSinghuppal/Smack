@@ -13,6 +13,7 @@ class ChanelVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
 
         // Do any additional setup after loading the view.
     }
